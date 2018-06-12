@@ -4,7 +4,7 @@ import java.time.LocalDate;
 /**
  * @author Logan Michel
  */
-public class Filmes {
+public class FilmesEx1L08 {
     private String titulo, tituloOriginal, genero, diretor;
     private short anoLancamento;
     private double valorFaturamento, valorOrcamento;
