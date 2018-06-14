@@ -14,9 +14,8 @@ public class FilmesEx1L08 {
     private LocalDate dataLancamentoBrasil;
     private String idioma;
     
-    public void setTitulo(String Titulo){
-        
-        this.titulo = Titulo;
+    public void setTitulo(String titulo){
+        this.titulo = titulo;
         
     }
     
@@ -32,7 +31,7 @@ public class FilmesEx1L08 {
         return tituloOriginal;
     }
     
-    public void setGenero(String Genero){
+    public void setGenero(String genero){
         this.genero = genero;
     }
     
@@ -40,7 +39,7 @@ public class FilmesEx1L08 {
         return genero;
     }
     
-    public void setDiretor(String Diretor){
+    public void setDiretor(String diretor){
         this.diretor = diretor;
     }
     
@@ -48,7 +47,7 @@ public class FilmesEx1L08 {
         return diretor;
     }
     
-    public void setAnoLancamento(short AnoLancamento){
+    public void setAnoLancamento(short anoLancamento){
         this.anoLancamento = anoLancamento;
     }
     
@@ -56,7 +55,7 @@ public class FilmesEx1L08 {
         return anoLancamento;
     }
     
-    public void setValorFaturamento(double ValorFaturamento){
+    public void setValorFaturamento(double valorFaturamento){
         this.valorFaturamento = valorFaturamento;
     }
     
@@ -64,15 +63,15 @@ public class FilmesEx1L08 {
         return valorFaturamento;
     }
     
-    public void setValorOrcamento(double ValorOrcamento){
-        this.valorFaturamento = valorFaturamento;
+    public void setValorOrcamento(double valorOrcamento){
+        this.valorOrcamento = valorOrcamento;
     }
     
     public double getValorOrcamento(){
         return valorOrcamento;
     }
     
-    public void setEspectadores(int Espectadores){
+    public void setEspectadores(int espectadores){
         this.espectadores = espectadores;
     }
     
@@ -80,7 +79,7 @@ public class FilmesEx1L08 {
         return espectadores;
     }
     
-    public void setClassificacao(String Classificacao){
+    public void setClassificacao(String classificacao){
         this.classificacao = classificacao;
     }
     
@@ -88,7 +87,7 @@ public class FilmesEx1L08 {
         return classificacao;
     }
     
-    public void setMediaPreco(double MediaPreco){
+    public void setMediaPreco(double mediaPreco){
         this.mediaPreco = mediaPreco;
     }
     
@@ -96,7 +95,7 @@ public class FilmesEx1L08 {
         return mediaPreco;
     }
     
-    public void setDataLancamentoBrasil(LocalDate DataLancamentoBrail){
+    public void setDataLancamentoBrasil(LocalDate dataLancamentoBrasil){
         this.dataLancamentoBrasil = dataLancamentoBrasil;
     }
     
@@ -104,7 +103,7 @@ public class FilmesEx1L08 {
         return dataLancamentoBrasil;
     }
     
-    public void setIdioma(String Idioma){
+    public void setIdioma(String idioma){
         this.idioma = idioma;
     }
     

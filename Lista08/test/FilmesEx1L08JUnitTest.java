@@ -31,7 +31,7 @@ public class FilmesEx1L08JUnitTest {
     public void testeDefinirEObterDiretor(){
         FilmesEx1L08 doutroEstraho = new FilmesEx1L08();
         doutroEstraho.setDiretor("Scott Derrickson");
-        assertEquals("Scott Derrickson", doutroEstraho.getGenero());
+        assertEquals("Scott Derrickson", doutroEstraho.getDiretor());
     }
     
     @Test
@@ -44,15 +44,15 @@ public class FilmesEx1L08JUnitTest {
     @Test
     public void testeDefinirEObterValorFaturamento(){
         FilmesEx1L08 vingadoreGuerraInfinita = new FilmesEx1L08();
-        vingadoreGuerraInfinita.setValorFaturamento(1000000000);
-        assertEquals(1000000000, vingadoreGuerraInfinita.getValorFaturamento());
+        vingadoreGuerraInfinita.setValorFaturamento((double)150000000);
+        assertEquals(150000000, vingadoreGuerraInfinita.getValorFaturamento(),0);
     }
     
     @Test
     public void testeDefinirEObterValorOrcamento(){
         FilmesEx1L08 perdidoEmMarte = new FilmesEx1L08();
-        perdidoEmMarte.setValorOrcamento(1000000);
-        assertEquals(1000000, perdidoEmMarte.getValorOrcamento());
+        perdidoEmMarte.setValorOrcamento(1000000.00);
+        assertEquals(1000000.00, perdidoEmMarte.getValorOrcamento(),0);
     }
     
     @Test
@@ -64,6 +64,29 @@ public class FilmesEx1L08JUnitTest {
     
     @Test
     public void testeDefinirEObterClassificacao(){
-        
+        FilmesEx1L08 poderosoChefao2 = new FilmesEx1L08();
+        poderosoChefao2.setClassificacao("+18");
+        assertEquals("+18", poderosoChefao2.getClassificacao());
+    }
+    
+    @Test
+    public void testeDefinirEObterMediaPreco(){
+        FilmesEx1L08 besouroVerde = new FilmesEx1L08();
+        besouroVerde.setMediaPreco(3745);
+        assertEquals(3745, besouroVerde.getMediaPreco(),0);
+    }
+    
+    @Test
+    public void testeDefinirEObterDataLancamentoBrasil(){
+        //FilmesEx1L08 velozesEFuriosos8 = new FilmesEx1L08();
+        //velozesEFuriosos8.setDataLancamentoBrasil(17042017);
+        //assertEquals(17042017, velozesEFuriosos8.getDataLancamento());
+    }
+    
+    @Test
+    public void testeDefinirEObterIdioma(){
+        FilmesEx1L08 asBemArmadas = new FilmesEx1L08();
+        asBemArmadas.setIdioma("Idioma");
+        assertEquals("Idioma", asBemArmadas.getIdioma());
     }
 }
